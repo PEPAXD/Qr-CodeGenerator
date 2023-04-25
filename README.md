@@ -1,22 +1,18 @@
 # Qr-CodeGenerator
-This Python script generates a QR code from a user-provided link. It uses the PySimpleGUI library to create a GUI window for the user to input the link, and the qrcode library to generate the QR code. The generated QR code is saved as an image file named "MyQRLink.png" in the current directory.
+This is a simple Python application for generating QR codes from a user-provided link. The app is built using the tkinter library for creating the graphical user interface and the qrcode library for generating QR codes.
 
-# Installation
-This script requires the following Python libraries to be installed:
+To run the app, simply execute the "Qr-CodeGenerator by-MauroPepa.py" file. Once the app is launched, enter a link into the input field and click the "GENERATE QR" button. The generated QR code will be displayed in the center of the window.
 
-import PySimpleGUI
-import qrcode
+To change the appearance of the app, the "customtkinter" library has been used. The appearance of the app can be modified by changing the color theme and appearance mode in the code.
 
-These libraries can be installed using pip:
+Note: The app saves the generated QR code as a PNG image in the same directory as the Python script.
 
----> pip install PySimpleGUI
----> pip install qrcode
+Required Libraries:
 
-# Usage
-To run the script, simply execute it from the command line:
+tkinter
+customtkinter
+qrcode
+PIL
 
----> python qrcode_generator.py
-
-# Credits
-This script was created by the "DeveloperCredits" module, which is included in the script
-
+Author:
+Mauro Pepa
